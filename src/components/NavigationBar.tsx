@@ -6,8 +6,11 @@ const NavigationBar = () => {
     <div className="flex justify-between items-center py-4 px-16 shadow-md">
       <div className="flex items-center gap-4">
         Logo
-        <p className="flex flex-col">
-          FirstStep <span>Multispecialty Clinic</span>
+        <p className="flex flex-col font-bold">
+          <span className="text-primary-default text-2xl -mb-1.5">
+            FirstStep
+          </span>
+          Multispecialty Clinic
         </p>
       </div>
       <div className="flex gap-4 uppercase font-bold">

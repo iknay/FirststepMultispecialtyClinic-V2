@@ -8,21 +8,29 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}
 
 body {
-  color: "#FCF8F5";
-  background: "#010101";
+  color: #303030;
+  background: #fcf8f5;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-image {
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: center;
+  background-image: url("../assets/images/Building.png");
+  background-position-y: 180px;
 }
